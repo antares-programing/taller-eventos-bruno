@@ -12,6 +12,7 @@ body{
     height: fit-content;
     margin: 30%;
     margin-top: 10%;
+    box-shadow: 10px 10px 20px rgb(0, 0, 0);
 }
 h1{
     color: antiquewhite;

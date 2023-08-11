@@ -3,13 +3,22 @@ const contenedor = document.getElementById("container");
 const controller = new AbortController;
 
 
-
   function giveCoffe() {
     controller.abort();
     const imagen = document.getElementById("Bugs");
-    alert("Le has dado un cafe a Bugs! \nAhora puedes saludarlo!");
-    imagen.setAttribute("src", "Imagenes/Despierto.png")
-    energia =+ 1;
+    const btnSaludo = document.getElementById("btnSaludo")
+    if (energia >= 5){
+        alert("Le has dado demasiado cafe a Bugs! \nYa no puedes saludarlo! \n Le dio amciedad!");
+        imagen.setAttribute("src", "Imagenes/MuchoCafe.png")
+        energia ++;
+        btnSaludo.disabled = true;
+    }else{
+        const imagen = document.getElementById("Bugs");
+        alert("Le has dado un cafe a Bugs! \nAhora puedes saludarlo!");
+        imagen.setAttribute("src", "Imagenes/Despierto.png")
+        energia ++;
+    }
+    
   };
 
   function showAlert() {
