@@ -1,0 +1,48 @@
+body{
+    background-color: coral;
+}
+#container{
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 10%, rgba(209,87,0,1) 11%, rgba(232,120,0,1) 16%, rgba(255,72,0,1) 17%, rgba(255,72,0,1) 22%, rgba(218,32,0,1) 24%, rgba(218,32,0,1) 29%, rgba(195,0,0,1) 30%, rgba(131,0,0,1) 37%, rgba(131,0,0,1) 38%, rgba(61,0,0,1) 53%);
+    position: relative;
+    align-items: start;
+    padding: 20px;
+    border-radius: 20px;
+    width: fit-content;
+    height: fit-content;
+    margin: 30%;
+    margin-top: 10%;
+}
+h1{
+    color: antiquewhite;
+    text-align: center;
+}
+
+#btnCafe{
+    height: 40px;
+    width: 200px;
+    display: block;
+    margin: auto;
+    float: right;
+    border-radius: 20px;
+    background-color: darkorange;
+}
+#btnSaludo{
+    height: 40px;
+    width: 200px;
+    display: block;
+    margin: auto;
+    float: left;
+    border-radius: 20px;
+    background-color: darkorange;
+}
+#btnSaludo:hover {
+    background-color: rgb(175, 97, 1);
+}
+#btnCafe:hover {
+    background-color: rgb(175, 97, 1);
+}
+#Bugs{
+    display: block;
+    margin: auto;
+}
