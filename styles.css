@@ -11,7 +11,7 @@ body{
     width: fit-content;
     height: fit-content;
     margin: 30%;
-    margin-top: 10%;
+    margin-top: 15%;
     box-shadow: 10px 10px 20px rgb(0, 0, 0);
 }
 h1{
@@ -46,4 +46,12 @@ h1{
 #Bugs{
     display: block;
     margin: auto;
+}
+
+#MoniContainer {
+    position:absolute;
+    top: -200px;
+    left: 20px;
+    z-index: 2;
+    
 }
