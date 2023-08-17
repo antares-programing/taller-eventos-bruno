@@ -19,7 +19,7 @@ const saludoBtn = document.getElementById("btnSaludo");
         imagen.setAttribute("src", "Imagenes/Despierto.png")
         energia ++;
     }
-    click.stopPropagation()
+    event.stopPropagation()
   };
 */
 /*
@@ -29,7 +29,7 @@ const saludoBtn = document.getElementById("btnSaludo");
   }else{
       alert("hmmm, bugs no esta de humor \nDeberias probar darle un cafecito...");
   }
-  click.stopPropagation()
+  event.stopPropagation()
   };
 */
 
